@@ -16,6 +16,7 @@
 		B3A810F529EAB51E006B5104 /* ToDoListRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A810F429EAB51E006B5104 /* ToDoListRealmTests.swift */; };
 		B3A810FF29EAB51E006B5104 /* ToDoListRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A810FE29EAB51E006B5104 /* ToDoListRealmUITests.swift */; };
 		B3A8110129EAB51E006B5104 /* ToDoListRealmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8110029EAB51E006B5104 /* ToDoListRealmUITestsLaunchTests.swift */; };
+		B3A8110E29EAB7A7006B5104 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8110D29EAB7A7006B5104 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B3A810FA29EAB51E006B5104 /* ToDoListRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A810FE29EAB51E006B5104 /* ToDoListRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListRealmUITests.swift; sourceTree = "<group>"; };
 		B3A8110029EAB51E006B5104 /* ToDoListRealmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListRealmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3A8110D29EAB7A7006B5104 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B3A810DD29EAB515006B5104 /* AppDelegate.swift */,
 				B3A810DF29EAB515006B5104 /* SceneDelegate.swift */,
 				B3A810E129EAB515006B5104 /* ViewController.swift */,
+				B3A8110D29EAB7A7006B5104 /* Contact.swift */,
 				B3A810E329EAB515006B5104 /* Main.storyboard */,
 				B3A810E629EAB51D006B5104 /* Assets.xcassets */,
 				B3A810E829EAB51D006B5104 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A8110E29EAB7A7006B5104 /* Contact.swift in Sources */,
 				B3A810E229EAB515006B5104 /* ViewController.swift in Sources */,
 				B3A810DE29EAB515006B5104 /* AppDelegate.swift in Sources */,
 				B3A810E029EAB515006B5104 /* SceneDelegate.swift in Sources */,
