@@ -6,15 +6,16 @@
 //
 
 import Foundation
+import RealmSwift
 
+class Contact:Object {
 
-class Contact {
-
-    var firstName:String
-    var lastName:String
+   @Persisted var firstName:String
+   @Persisted var lastName:String
     
-    init(_firstName:String,_lastName:String) {
-        self.firstName = _firstName
-        self.lastName = _lastName
-    }
+   convenience init(_firstName:String,_lastName:String) {
+       self.init()
+       self.firstName = _firstName
+       self.lastName = _lastName
+   }
 }
