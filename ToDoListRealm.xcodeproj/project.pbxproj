@@ -101,10 +101,10 @@
 		B3A810DC29EAB515006B5104 /* ToDoListRealm */ = {
 			isa = PBXGroup;
 			children = (
+				B3A8110F29EB10E9006B5104 /* Models */,
 				B3A810DD29EAB515006B5104 /* AppDelegate.swift */,
 				B3A810DF29EAB515006B5104 /* SceneDelegate.swift */,
 				B3A810E129EAB515006B5104 /* ViewController.swift */,
-				B3A8110D29EAB7A7006B5104 /* Contact.swift */,
 				B3A810E329EAB515006B5104 /* Main.storyboard */,
 				B3A810E629EAB51D006B5104 /* Assets.xcassets */,
 				B3A810E829EAB51D006B5104 /* LaunchScreen.storyboard */,
@@ -128,6 +128,14 @@
 				B3A8110029EAB51E006B5104 /* ToDoListRealmUITestsLaunchTests.swift */,
 			);
 			path = ToDoListRealmUITests;
+			sourceTree = "<group>";
+		};
+		B3A8110F29EB10E9006B5104 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3A8110D29EAB7A7006B5104 /* Contact.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
